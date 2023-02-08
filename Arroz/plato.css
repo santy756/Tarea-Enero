@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(#363636, black);
+    background-color: #363636;
+    font-family: 'Roboto', sans-serif;
+    
+    height: 100vh;
+}
+
+.nodge {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin: .5rem 0 1.5rem 0;
+}
+
+.señal{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    align-items: center;
+}
+
+.bateria{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bateria i {
+    color: white;
+    margin: 0.2rem;
+}
+
+.titulo-plato{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.titulo-plato h2{
+    font-weight: lighter;
+}
+
+.presentacion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion img{
+    width: 65%;
+    height: auto;
+}
+
+.presentacion h2{
+    font-weight: bolder;
+    color: white;
+}
+

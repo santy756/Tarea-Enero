@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+:root {
+    --Fondo: #1c1c1c;
+    --Letras: #ebebeb;
+    --boton: #bceb3d;
+}
+
+body {
+    background-color: var(--Fondo);
+    margin-top: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sendmoney {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    color: #ebebeb;
+}
+
+.sendmoney span{
+    width: 50%;
+    text-align: end;
+}
+
+.slide {
+    width: 100%;
+}
+
+.slide img {
+    width: auto !important;
+    height: 64px;
+}
+
+.avatar {
+    width: 100vw;
+    margin-left: 3rem;
+}
+
+.avatar p {
+    margin-left: -1.5rem;
+    color: var(--Letras);
+}
+
+.cantidad {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.cantidad h2{
+    margin: 0;
+    font-size: 3rem;
+    color: var(--Letras);
+}
+
+.cantidad input{
+    border: 0px solid #ebebeb;
+    border-bottom: 2px solid #ebebeb;
+    background-color: transparent;
+    padding-left: 2rem;
+    width: 30%;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+    color: #ebebeb;
+}
+
+.numeros {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numeros button{
+    width: 25%;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    color: var(--Letras);
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.boton-next{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-next button{
+    width: 90%;
+    height: 50%;
+    background-color: #bceb3d;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--Fondo);
+}
+
+.navbar {
+    display: flex;
+    border-top: 1px solid #ebebeb21;
+}
+
+.navbar ul{
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    background-attachment: var(--boton);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navbar ul li{
+    width: 20%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Letras);
+    transition: 0.4s;
+}
+
+.navbar li:hover{
+    border-bottom: 1px solid white;
+    filter: brightness(150%);
+    transform: scale(1.1);
+}
+
+body {
+    height:95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

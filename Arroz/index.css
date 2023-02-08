@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+body {
+    background: linear-gradient(#363636, black);
+    background-color: #363636;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.nodge {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin: .5rem 0 1.5rem 0;
+}
+
+.señal{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    align-items: center;
+}
+
+.bateria{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bateria i {
+    color: white;
+    margin: 0.2rem;
+}
+
+.notificacion {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.notificacion button {
+    background-color: #363636;
+    border: none;
+    width: 10%;
+    margin: 0 .8rem;
+}
+
+.notificacion button img {
+    height: 32px;
+    width: 32px;
+}
+
+.texto-find {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    justify-content: flex-start;
+}
+
+.texto-find h2{
+    width: 70%;
+}
+
+.busqueda {
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.busqueda input {
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 85%;
+}
+
+.busqueda button {
+    width: 13%;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fc7100;
+}
+
+.busqueda button i {
+    color: white;
+}
+
+
+.input-lupa{
+    width: 75%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-lupa i {
+    color: #a5a5a5;
+}
+
+.popularfood {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.popularfood h3 {
+    margin: 0 0 0 0.8rem;
+    font-size: 16px;
+    color: white;
+}
+
+.comidas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    height: 25rem;
+}
+
+.imagen-corazon {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-corazon {
+    width: auto;
+    height: 100%;
+}
+
+.icono-corazon h6{
+    color: red;
+}
+
+.comida-1 {
+    width: 45%;
+    height: 45%;
+    background-color: #000000;
+    border: 1px solid #ffffff4d;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comida-1 span{
+    color: white;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.comida-1 h5{
+    color: white;
+}
+
+.comida-img {
+    width: 65%;
+    height: 90%;
+    border-radius: 100%;
+}
+
+.comida-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.precio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.precio i{
+    color: #fc7100;
+}
+
+.navbar {
+    width: 100%;
+    height: 5rem;
+    background-color: #363636;
+    
+}
+
+.navbar-izquierdo{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    align-items:center;
+}
+.navbar-derecho{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+.navbar-izquierdo i:hover{
+    color: #fc7100;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.navbar-medio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.navbar-medio button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    bottom: 3.2rem;
+    padding: 0;
+    position: absolute;
+}
+
+.navbar-derecho i:hover{
+    color: #fc7100;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.navbar-medio button:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.4s;
+}
+
+
